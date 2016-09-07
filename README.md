@@ -2,8 +2,8 @@
 ===
 **My Repository for Computational Physics**
 ---
- **Class：14级物基二班**
- **Name：马士全**
+ **Class：14级物基二班**  
+ **Name：马士全**  
  **Student Number：2014301510099**
 
 
