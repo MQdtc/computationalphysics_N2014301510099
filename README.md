@@ -20,8 +20,8 @@ This is the repository for Computational Physics course by Prof. Cai from Wuhan 
 
 **Homework List   (作业列表)：**  
 ---
-|  Excercise Number|  Title Name                                          | Done or Not              |   
+|  Exercise Number|  Title Name                                          | Done or Not              |   
 |  ----             | -----------:|:---:            |
-|                 |             |                 |
+|     Exercise 1            |Installing Environments for Python             |        Done         |
 |                   |            |                 |
 |                    |        |                   |
