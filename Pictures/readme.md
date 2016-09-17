@@ -1,2 +1,2 @@
-# Here are the pictures used in my homework.
+# Here are the pictures used in my reports.
  
