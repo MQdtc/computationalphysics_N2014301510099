@@ -19,7 +19,7 @@ This is the example gave by our teacher:
 ![the codes of Exercise2](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise2%20(codes).PNG)
 
 ----------
-**Result**
+**Result**  
 ------
 Here is the result:
 ![result of Exercise2](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise2%20(result).PNG)
