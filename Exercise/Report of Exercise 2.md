@@ -15,13 +15,13 @@ This is the example gave by our teacher:
 ---------
  **Codes**  
  ------
-[Here is my codes:](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/Exercise%202%20(print%20your%20name).py)  {actually it can be more useful by expand the basic word Strings}
+[Here is my codes:](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/Exercise%202%20(print%20your%20name).py)  {actually it can be more useful by expand the basic word Strings}  
 ![the codes of Exercise2](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise2%20(codes).PNG)
 
 ----------
 **Result**  
 ------
-Here is the result:
+Here is the result:  
 ![result of Exercise2](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise2%20(result).PNG)
 
 
