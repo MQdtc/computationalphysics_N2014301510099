@@ -22,7 +22,6 @@ This is the repository for Computational Physics course by Prof. Cai from Wuhan 
 ---
 |  Exercise Number|  Title Name                                          | Done or Not              |   
 |  ----             | :-----------:|:---:            |
-|     Exercise 1            |1.Install Linux System   
-                             2.Establish a repository & Installing Environments for Python             |        Done         |
+|     Exercise 1            |Install Linux System & Establish a repository & Installing Environments for Python  |        Done     |
 |                   |            |                 |
 |                    |        |                   |
