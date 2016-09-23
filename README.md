@@ -20,8 +20,8 @@ This is the repository for Computational Physics course by Prof. Cai from Wuhan 
 
 **Homework List   (作业列表)：**  
 ---
-|  Exercise Number|  Title Name                                          | Done or Not              |   
-|  ----             | :-----------:|:---:            |
-|    Exercise 1            |Install Linux System & Establish a repository & Installing Environments for Python  |        Done     |
-|     Exercise 2              |   [Do some Python exercises & Print your English name on the screen             ](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Exercise/Report%20of%20Exercise%202.md)  |                                                                                                                                           Done    |
-|     Exercise 3               |        |                   |
+|  Exercise Number|  Title Name                                          | Done or Not              |   Data    |
+|  ----             | :-----------:|:---:            |:-----:|
+|    Exercise 1            |Install Linux System & Establish a repository & Installing Environments for Python  |        Done     |16.9.10|
+     Exercise 2              |   [Do some Python exercises & Print your English name on the screen             ](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Exercise/Report%20of%20Exercise%202.md)  |                                                                                                                                           Done    |16.9.17|
+|     Exercise 3               |        |                   |16.9.23|
