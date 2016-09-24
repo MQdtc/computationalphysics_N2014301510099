@@ -6,6 +6,7 @@ Professer Cai said that we can try to complete our seconde homework use "dictona
 
  [***The new codes:***](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/print%20your%20name%20update.py)
  ----------
+ ```python
  def kunnoname(name, lens):  
     qA = ['   #    ', ' #   #  ', '#     # ', '# ### # ', '#     # ', '#     # ', '#     # ']  
     qB = [' #####  ', '#     # ', '#     # ', '######  ', '#     # ', '#     # ', ' #####  ']  
@@ -48,7 +49,8 @@ def main():
     name = name.lower()    # exchange what you input into lower case letters  
     kunnoname(name,lens)  
 
-main()  
+main() 
+ ```
 
 **Results:** 
 ---------
