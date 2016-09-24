@@ -4,7 +4,7 @@
 -------------
 Professer Cai said that we can try to complete our seconde homework use "dictonary", not just use the basic fuction "print" in his last class. So I studied some features of "dictionary", and refer some codes of my senior students to make my codes better.
 
- ***The new codes:***
+ [***The new codes:***](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/print%20your%20name%20update.py)
  ----------
  def kunnoname(name, lens):  
     qA = ['   #    ', ' #   #  ', '#     # ', '# ### # ', '#     # ', '#     # ', '#     # ']  
