@@ -50,7 +50,8 @@ def main():
 
 main()  
 
-**Results:**  
+**Results:** 
+---------
 ![Result of Exercise 2 update](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%202%20update.PNG)
 
 **Reference and Thanks**
