@@ -102,7 +102,7 @@ If you want to your name move sideling, just need to change a litte codes:
         print ('\n')*2*x
     return screen 
   ```
-  What's more? We can even contorl the trajectory of the letters. 
+  What's more? We can even contorl the trajectory of the letters.  
   ![trajectory](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%203%20L1%20move%20on%20a%20trajectory.gif)  
   [Here is the codes:](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/Exercise%203%20L1%EF%BC%88trajectory%EF%BC%89.py)  
  ```python
