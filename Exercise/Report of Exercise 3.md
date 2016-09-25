@@ -74,7 +74,7 @@ Level 1:
 ------
 Here is the result:  
 ![result of Exercise3 L1](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%203%20L1%20move%20horizontally.gif)
-(gif图片较大,流畅运行可能需要等待)
+(gif图片较大,流畅运行可能需要等待)  
 if you want your name move horizontally, we can use these codes:  
  ```python
 for x in range(4):    
@@ -88,7 +88,7 @@ for x in range(4):
     return screen 
  ```
 ![result of Exercise3 L1](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%203%20L1%20move%20sideling.gif)
-(gif图片较大,流畅运行可能需要等待)
+(gif图片较大,流畅运行可能需要等待)  
 If you want to your name move sideling, just need to change a litte codes:  
  ```python
     for x in range(4):    
