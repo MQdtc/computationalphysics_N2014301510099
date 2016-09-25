@@ -1,7 +1,7 @@
 # Abstract
 -------
 *This is the Report of Exercise 3, this Exercise is consisit of two levels. Level 1： make your name move horizontally on the screen; Level 2： Design a pattern and make it rotate on the screen* 
-# Backgroundh
+# Background
 --------
 Last time I use Python to show my English name on the screen, but you know, just show something isn't enough, sometimes we want to see a movable information.
 
@@ -65,7 +65,7 @@ def main():
 main()
  ```
  
-![the codes for Level 2]()
+[the codes for Level 2：](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/Exercise%203%20L1%EF%BC%88trajectory%EF%BC%89.py)
 
 ----------
 **Result**
@@ -102,6 +102,8 @@ If you want to your name move sideling, just need to change a litte codes:
         print ('\n')*2*x
     return screen 
   ```
+  Level 2:    
+  ----
   What's more? We can even contorl the trajectory of the letters.  
   ![trajectory](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%203%20L1%20move%20on%20a%20trajectory.gif)  
   [Here is the codes:](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/Exercise%203%20L1%EF%BC%88trajectory%EF%BC%89.py)  
@@ -119,8 +121,7 @@ If you want to your name move sideling, just need to change a litte codes:
  ```
   
   ---
-  Level 2:  
-  ----
+
 
 
 # References and Thanks
