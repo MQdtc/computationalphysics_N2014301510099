@@ -1,6 +1,5 @@
 import os
 import time
-import math
 qwhitespace = ['        ', '        ', '        ', '        ', '        ', '        ', '        ']
 def kunnoname(name, lens):
     qA = ['   #    ', ' #   #  ', '#     # ', '# ### # ', '#     # ', '#     # ', '#     # ']
@@ -34,12 +33,12 @@ def kunnoname(name, lens):
     for x in range(20):    
         for j in range(7):
             for i in range(lens):
-                screen[j] =' '*x*int(10+math.cos(x)*5) + screen[j] + alphabet[name[i]][j]   #get your name use "#"
+                screen[j] =' '*x + screen[j] + alphabet[name[i]][j]   #get your name use "#"
             print screen[j]   
             screen = [' ']*7
         time.sleep(0.3)
         os.system('cls')
-        print ('\n')*int(-10+math.sin(x)*10)
+        print ('\n')*x
     return screen 
     
 def main():
