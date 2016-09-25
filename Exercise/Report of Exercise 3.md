@@ -74,6 +74,7 @@ Level 1:
 ------
 Here is the result:  
 ![result of Exercise3 L1](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%203%20L1%20move%20horizontally.gif)
+(gif图片较大,流畅运行可能需要等待)
 if you want your name move horizontally, we can use these codes:  
  ```python
 for x in range(4):    
@@ -87,6 +88,7 @@ for x in range(4):
     return screen 
  ```
 ![result of Exercise3 L1](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%203%20L1%20move%20sideling.gif)
+(gif图片较大,流畅运行可能需要等待)
 If you want to your name move sideling, just need to change a litte codes:  
  ```python
     for x in range(4):    
@@ -100,7 +102,22 @@ If you want to your name move sideling, just need to change a litte codes:
         print ('\n')*2*x
     return screen 
   ```
-  What's more? We can even contorl the trajectory of the letters. Just to import math in your Python shell and change x into any fuction you like, I am sorry that there are something wrong in my PC, so I can not show you the interesting results.  
+  What's more? We can even contorl the trajectory of the letters. 
+  ![trajectory](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%203%20L1%20move%20on%20a%20trajectory.gif)  
+  [Here is the codes:](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/Exercise%203%20L1%EF%BC%88trajectory%EF%BC%89.py)  
+ ```python
+ for x in range(20):    
+        for j in range(7):
+            for i in range(lens):
+                screen[j] =' '*x*int(3+math.cos(x)*3) + screen[j] + alphabet[name[i]][j]   #get your name use "#"
+            print screen[j]   
+            screen = [' ']*7
+        time.sleep(0.3)
+        os.system('cls')
+        print ('\n')*int(math.sin(x)*10)
+    return screen 
+ ```
+  
   ---
   Level 2:  
   ----
