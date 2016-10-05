@@ -8,7 +8,7 @@ After learning the decay process of $U$, we can
 # Main body
 ---------
 From the [*teaching paln*](https://www.evernote.com/shard/s140/sh/d351f9a3-8076-4274-944b-7043e0ce8cf3/4f89e8630604ea23262f00b3ed11f8ad), we can know that the The radioactive decay process satisfies the equation：  
-$$\frac{dN_{nuclear}}{dt}=-\frac{N_{nuclear}}{\tau}$$   <img src="http://latex.codecogs.com/gif.latex?\$$\frac{dN_{nuclear}}{dt}=-\frac{N_{nuclear}}{\tau}$$" alt="" title="" />
+$$\frac{dN_{nuclear}}{dt}=-\frac{N_{nuclear}}{\tau}$$   <img src="http://latex.codecogs.com/gif.latex?\$\frac{dN_{nuclear}}{dt}=-\frac{N_{nuclear}}{\tau}$" alt="" title="" />
 where the $N_{nuclear}$ is the **number of the nuclear**, $\tau$ is the **time constant** for the decay.  
 It's easy to get the solution:  
 $$N_{nuclear}=N_{nuclear}(0)e^{-t/\tau}$$
