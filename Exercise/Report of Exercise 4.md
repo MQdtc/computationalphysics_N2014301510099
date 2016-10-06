@@ -17,13 +17,13 @@ In order to learn the process in a numerical apporach, we can make a *Taylor exp
 Omitting high order terms：
 <img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t)=N_{nuclear}(0)+\frac{dN_{nuclear}}{dt}t" alt="" title="" />  
 use the **Euler method** :    
-<img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t+\Deltat)=N_{nuclear}(t)-\frac{N_{nuclear}(t)}{\tau}\Deltat" alt="" title="" />  
+<img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t+\Delta{t})=N_{nuclear}(t)-\frac{N_{nuclear}(t)}{\tau}\Delta{t}" alt="" title="" />  
 According to the problem $1.5$, we have :  
 <img src="http://latex.codecogs.com/gif.latex?\frac{dN_A}{dt}=\frac{N_B}{\tau}-\frac{N_A}{\tau}" alt="" title="" />  
 <img src="http://latex.codecogs.com/gif.latex?\frac{dN_B}{dt}=\frac{N_A}{\tau}-\frac{N_B}{\tau}" alt="" title="" />   
 so we have the numeber of expressions of $A$ and $B$：  
-<img src="http://latex.codecogs.com/gif.latex?N_A(t+\Deltat)=N_A(t)+[\frac{N_B}{\tau}-\frac{N_A}{\tau}]\Deltat" alt="" title="" />     
-<img src="http://latex.codecogs.com/gif.latex?N_B(t+\Deltat)=N_B(t)+[\frac{N_A}{\tau}-\frac{N_B}{\tau}]\Deltat" alt="" title="" />  
+<img src="http://latex.codecogs.com/gif.latex?N_A(t+\Delta{t})=N_A(t)+[\frac{N_B}{\tau}-\frac{N_A}{\tau}]\Delta{t}" alt="" title="" />     
+<img src="http://latex.codecogs.com/gif.latex?N_B(t+\Delta{t})=N_B(t)+[\frac{N_A}{\tau}-\frac{N_B}{\tau}]\Delta{t}" alt="" title="" />  
 Now I can start designing my program
 
 
