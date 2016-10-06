@@ -26,5 +26,6 @@ This is the repository for Computational Physics course by Prof. Cai from Wuhan 
      Exercise 2              |   [Do some Python exercises & Print your English name on the screen             ](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Exercise/Report%20of%20Exercise%202.md)  |                                                                                                                                           Done    |16.9.17|
 |     Exercise 2 Update               | [Print your English name on the screen use dictionary](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Exercise/Report%20of%20Exercise%202%20update.md)       |        Done           |16.9.24|
 |  Exercise 3 （All Level） | [Let your name move horizontally L1 & let a pattern rotate on the screen ](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Exercise/Report%20of%20Exercise%203.md)  | Done   |16.9.24|
-|Exercise 4  | [Use the Matplotlib to learn the decay process of radioactive particles ](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Exercise/Report%20of%20Exercise%204.md)  |  Not yet  | 16.10.5   |
+|Exercise 4  | [Use the Matplotlib to learn the decay process of radioactive particles (Github version) ](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Exercise/Report%20of%20Exercise%204.md)
+[(Markdown version)]()|  Not yet  | 16.10.5   |
 | Exercise 5 |  |    Not yet |  |
