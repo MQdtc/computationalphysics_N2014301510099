@@ -73,6 +73,7 @@ a.show_results()
 ----------
 **Result**
 ------
+![E 4 R 1](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20results%201.PNG)
 
 
 
