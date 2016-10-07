@@ -26,8 +26,7 @@ so we have the numeber of expressions of $A$ and $B$：
 <img src="http://latex.codecogs.com/gif.latex?N_B(t+\Delta{t})=N_B(t)+[\frac{N_A}{\tau}-\frac{N_B}{\tau}]\Delta{t}" alt="" title="" />  
 Now I can start designing my program
 
-
- **Codes**
+ **Design main codes**
  ------
 [The main codes of Exercise 4:](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/Exercise%204%20main.py)  
  ```python
@@ -69,17 +68,34 @@ a = uranium_decay_A_and_B()
 a.calculate()
 a.show_results()
  ```
+ And the initial conditions can be changed via the keyboard input:    
+ ```python
+    N_A = input("Input Initial number of nuclei_A ->")
+    N_B = input("Input Initial number of nuclei_B ->")
+    tc = input("Input time constant ->")
+    tod = input("input time of duration ->")
+    ts = input("Input time step ->")
+ ```
+ ![E 4 K](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20keyboard.PNG)
 
 ----------
-**Result**
+**Result of main codes**
 ------
-![E 4 R 1](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20results%201.PNG)
+$N_A=100$;$N_B=0$;$\tau=1(s)$:   
+![E 4 R 1](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20results%201.PNG)  
+$N-A=100$;$N_B=0$;$\tau=0.5(s)$:  
+It's obviously that the sysytem reached equilirium more quickly.  
+![E 4 R 2](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20results%202.png)  
+$N-A=100$;$N_B=0$;$\tau=2(s)$:   
+It's obviously that the sysytem reached equilirium more slowly.  
+![E 4 R 3](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20results%203.PNG)
 
 
 
 # References and Thanks
 ------
-[How to think like a computer scientist – Learning with Python: Interactive Edition 2.0](http://interactivepython.org/runestone/static/thinkcspy/index.html)
+[How to think like a computer scientist – Learning with Python: Interactive Edition 2.0](http://interactivepython.org/runestone/static/thinkcspy/index.html)  
+[teaching plan of Chapter 1](https://www.evernote.com/shard/s140/sh/d351f9a3-8076-4274-944b-7043e0ce8cf3/4f89e8630604ea23262f00b3ed11f8ad)
 
 
 
