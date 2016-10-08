@@ -7,7 +7,7 @@ After learning the decay process of *U* alt="" title="" /> , we can consider aga
 
 # Main body
 ---------
-From the [*teaching paln*](https://www.evernote.com/shard/s140/sh/d351f9a3-8076-4274-944b-7043e0ce8cf3/4f89e8630604ea23262f00b3ed11f8ad), we can know that the The radioactive decay process satisfies the equation： 
+From the [*teaching paln*](https://www.evernote.com/shard/s140/sh/d351f9a3-8076-4274-944b-7043e0ce8cf3/4f89e8630604ea23262f00b3ed11f8ad), we can know that the The radioactive decay process satisfies the equation：  
 <img src="http://latex.codecogs.com/gif.latex?\frac{dN_{nuclear}}{dt}=-\frac{N_{nuclear}}{\tau}" alt="" title="" />   
 where the <img src="http://latex.codecogs.com/gif.latex?N_{nuclear}" alt="" title="" /> is the **number of the nuclear**, <img src="http://latex.codecogs.com/gif.latex?\tau" alt="" title="" /> is the **time constant** for the decay.  
 It's easy to get the solution:  
@@ -15,9 +15,9 @@ It's easy to get the solution:
 In order to learn the process in a numerical apporach, we can make a *Taylor expansion* to <img src="http://latex.codecogs.com/gif.latex?N_{nuclear(t)}" alt="" title="" />:    
 <img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t)=N_{nuclear}(0)+\frac{dN_{nuclerar}}{dt}t+\frac{1}{2}\frac{d^2N_{nucleaer}}{dt^2}+\cdots" alt="" title="" />  
 Omitting high order terms  
-<img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t)\approxN_{nuclear}(0)+\frac{dN_{nuclear}}{dt}t" alt="" title="" />  
+<img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t)=N_{nuclear}(0)+\frac{dN_{nuclear}}{dt}t" alt="" title="" />  
 use the **Euler method** :  
-<img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t+\Deltat)\approxN_{nuclear}(t)-\frac{N_{nuclear}(t)}{\tau}\Deltat" alt="" title="" />  
+<img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t+\Deltat)=N_{nuclear}(t)-\frac{N_{nuclear}(t)}{\tau}\Deltat" alt="" title="" />  
 According to the problem *1.5*, we have :  
 <img src="http://latex.codecogs.com/gif.latex?\frac{dN_A}{dt}=\frac{N_B}{\tau}-\frac{N_A}{\tau}" alt="" title="" />  
 <img src="http://latex.codecogs.com/gif.latex?\frac{dN_B}{dt}=\frac{N_A}{\tau}-\frac{N_B}{\tau}" alt="" title="" />   
@@ -25,8 +25,8 @@ Slove the Differential Equations:
 <img src="http://latex.codecogs.com/gif.latex?N_A(t)=\frac{1}{2}(N_{A0}+N_{B0})+\frac{1}{2}(N_{A0}-N_{B0})e^{\frac{-2t}{\tau}} " alt="" title="" />   
 <img src="http://latex.codecogs.com/gif.latex?N_A(t)=\frac{1}{2}(N_{A0}+N_{B0})+\frac{1}{2}(N_{B0}-N_{A0})e^{\frac{-2t}{\tau}}" alt="" title="" />  
 So we have the numeber of expressions of *A* and *B*：  
-<img src="http://latex.codecogs.com/gif.latex?N_A(t+\Deltat)\approxN_A(t)+[\frac{N_{A0}}{\tau}+\frac{N_{B0}}{\tau}-\frac{2N_A(t)}{\tau}]\Deltat" alt="" title="" />  
-<img src="http://latex.codecogs.com/gif.latex?N_B(t+\Deltat)\approxN_B(t)+[\frac{N_{A0}}{\tau}+\frac{N_{B0}}{\tau}-\frac{2N_B(t)}{\tau}]\Deltat" alt="" title="" />  
+<img src="http://latex.codecogs.com/gif.latex?N_A(t+\Deltat)=N_A(t)+[\frac{N_{A0}}{\tau}+\frac{N_{B0}}{\tau}-\frac{2N_A(t)}{\tau}]\Deltat" alt="" title="" />  
+<img src="http://latex.codecogs.com/gif.latex?N_B(t+\Deltat)=N_B(t)+[\frac{N_{A0}}{\tau}+\frac{N_{B0}}{\tau}-\frac{2N_B(t)}{\tau}]\Deltat" alt="" title="" />  
 Now I can start designing my program
  **Design main codes**
  ------
