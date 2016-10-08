@@ -15,14 +15,14 @@ It's easy to get the solution:
 In order to learn the process in a numerical apporach, we can make a *Taylor expansion* to <img src="http://latex.codecogs.com/gif.latex?N_{nuclear(t)}" alt="" title="" />:    
 <img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t)=N_{nuclear}(0)+\frac{dN_{nuclerar}}{dt}t+\frac{1}{2}\frac{d^2N_{nucleaer}}{dt^2}+\cdots" alt="" title="" />  
 Omitting high order terms  
-<img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t)=N_{nuclear}(0)+\frac{dN_{nuclear}}{dt}t" alt="" title="" />  
+<img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t){\approx}N_{nuclear}(0)+\frac{dN_{nuclear}}{dt}t" alt="" title="" />  
 use the **Euler method** :  
 <img src="http://latex.codecogs.com/gif.latex?N_{nuclear}(t+\Delta{t}){\approx}N_{nuclear}(t)-\frac{N_{nuclear}(t)}{\tau}\Delta{t}" alt="" title="" />  
 According to the problem *1.5*, we have :  
 <img src="http://latex.codecogs.com/gif.latex?\frac{dN_A}{dt}=\frac{N_B}{\tau}-\frac{N_A}{\tau}" alt="" title="" />  
 <img src="http://latex.codecogs.com/gif.latex?\frac{dN_B}{dt}=\frac{N_A}{\tau}-\frac{N_B}{\tau}" alt="" title="" />   
 Slove the Differential Equations:  
-<img src="http://latex.codecogs.com/gif.latex?N_A(t)=\frac{1}{2}(N_{A0}+N_{B0})+\frac{1}{2}(N_{A0}-N_{B0})e^{\frac{-2t}{\tau}} " alt="" title="" />   
+<img src="http://latex.codecogs.com/gif.latex?N_A(t)=\frac{1}{2}(N_{A0}+N_{B0})+\frac{1}{2}(N_{A0}-N_{B0})e^{\frac{-2t}{\tau}}" alt="" title="" />   
 <img src="http://latex.codecogs.com/gif.latex?N_A(t)=\frac{1}{2}(N_{A0}+N_{B0})+\frac{1}{2}(N_{B0}-N_{A0})e^{\frac{-2t}{\tau}}" alt="" title="" />  
 So we have the numeber of expressions of *A* and *B*：  
 <img src="http://latex.codecogs.com/gif.latex?N_A(t+\Delta{t})=N_A(t)+[\frac{N_{A0}}{\tau}+\frac{N_{B0}}{\tau}-\frac{2N_A(t)}{\tau}]\Delta{t}" alt="" title="" />  
