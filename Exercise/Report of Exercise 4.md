@@ -31,7 +31,7 @@ Now I can start designing my program
  **Design main codes**
  ------
 [The main codes of Exercise 4:](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/Exercise%204%20main.py)  
- ```python
+```python
 import pylab as pl
 class uranium_decay_A_and_B:
     N_A = input("Input Initial number of nuclei_A :")
@@ -73,15 +73,15 @@ class uranium_decay_A_and_B:
 a = uranium_decay_A_and_B()
 a.calculate()
 a.show_results()
- ```
+```
 And the initial conditions can be changed via the keyboard input:  
- ```python
+```python
     N_A = input("Input Initial number of nuclei_A ->")
     N_B = input("Input Initial number of nuclei_B ->")
     tc = input("Input time constant ->")
     tod = input("input time of duration ->")
     ts = input("Input time step ->")
- ```
+```
  ![E 4 K](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20keyboard.PNG)
 ----------
 **Result of main codes**
@@ -95,15 +95,12 @@ $N-A=100$;$N_B=0$;$\tau=2(s)$:
 It's obviously that the sysytem reached equilirium more slowly.  
 ![E 4 R 3](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20results%203.PNG)
 
-**change the nsteps**
 
-
-**different time constants**
 
 
 **teating my program**
 *testing codes:* 
- ```python
+```python
     def show_results(self):
         self.et_A = []
         self.et_B = []
@@ -121,9 +118,9 @@ It's obviously that the sysytem reached equilirium more slowly.
         pl.xlim(0, self.time)
         pl.legend()
         pl.show()
- ```  
- **testing results**
-![]（）
+```  
+ **testing results**  
+![E 4 T](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20testing.PNG)
 
 
 
