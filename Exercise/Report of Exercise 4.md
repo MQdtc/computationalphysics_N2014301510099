@@ -98,8 +98,8 @@ It's obviously that the sysytem reached equilirium more slowly.
 
 
 
-**teating my program**
-*testing codes:*  
+**teating my program**  
+[*testing codes:*](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Codes/Exercise%204%20%20test.py)  
 ```python
     def show_results(self):
         self.et_A = []
@@ -122,7 +122,7 @@ It's obviously that the sysytem reached equilirium more slowly.
  **testing results**    
 ![E 4 T](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Pictures/Exercise%204%20testing.PNG)
 
-[#Skill](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Skill/LaTeX.md)
+# [Skill](https://github.com/MQdtc/computationalphysics_N2014301510099/blob/master/Skill/LaTeX.md)
 
 # References and Thanks
 ------
