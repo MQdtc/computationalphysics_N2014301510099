@@ -25,7 +25,7 @@ class small_velocity_bicycle:
     def motion(self):
         _time = 0
         while(_time < self.tt):
-            if self.v[-1] < 1 :
+            if self.v[-1] < 14 :
                 self.v.append(self.v[-1] + self.ts * (self.f - self.C_1 * self.v[-1])/ self.m)
             else :
                 self.v.append(self.v[-1] + self.ts * (self.f - self.C_2 * (self.v[-1])*(self.v[-1]))/ self.m)
