@@ -30,4 +30,4 @@ This is the repository for Computational Physics course by Prof. Cai from Wuhan 
 | Exercise 5|[Realistic Projectile Motion(markdown version)](https://www.zybuluo.com/MQdtc/note/532282), The GitHub version is not compelete now                                                                   |Done      | 16.10.17 |
 | Exercise 6 |     [The cannon shell Auxiliary Striking System](https://www.zybuluo.com/MQdtc/note/542557)         |Done|                                                                                                            16.10.23|
 |   Exercise 7|  [nonlinear pendulum](https://www.zybuluo.com/MQdtc/note/550289)|  Done  |  16.10.30  |   
-|Exercise 8| [Using Vpython and Euler-Cromer Method to study nonliner pendulum with different drive forces]()| Done |16.11.13|
+|Exercise 8| [Using Vpython and Euler-Cromer Method to study nonliner pendulum with different drive forces](https://www.zybuluo.com/MQdtc/note/565989)| Done |16.11.13|
