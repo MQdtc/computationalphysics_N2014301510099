@@ -32,3 +32,4 @@ This is the repository for Computational Physics course by Prof. Cai from Wuhan 
 |   Exercise 7|  [nonlinear pendulum](https://www.zybuluo.com/MQdtc/note/550289)|  Done  |  16.10.30  |   
 |Exercise 8| [Using Vpython and Euler-Cromer Method to study nonliner pendulum with different drive forces](https://www.zybuluo.com/MQdtc/note/565989)| Done |16.11.13|
 | Exercise 9 |[1. Lorenz model & 2. The billiard problem](https://www.zybuluo.com/MQdtc/note/573599)|Done|16.11.21|
+| Exercise 10 | [Precession of the Perihelion of Mercury](https://www.zybuluo.com/MQdtc/note/581578)|Done|16.11.27|
