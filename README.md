@@ -33,4 +33,5 @@ This is the repository for Computational Physics course by Prof. Cai from Wuhan 
 |Exercise 8| [Using Vpython and Euler-Cromer Method to study nonliner pendulum with different drive forces](https://www.zybuluo.com/MQdtc/note/565989)| Done |16.11.13|
 | Exercise 9 |[1. Lorenz model & 2. The billiard problem](https://www.zybuluo.com/MQdtc/note/573599)|Done|16.11.21|
 | Exercise 10 | [Precession of the Perihelion of Mercury](https://www.zybuluo.com/MQdtc/note/581578)|Done|16.11.27|
-| Exercise 11 | [Chaotic tumbling of Hyperion](https://www.zybuluo.com/MQdtc/note/589767)|Done|16.12.4|
+| Exercise 11 | [Chaotic tumbling of Hyperion](https://www.zybuluo.com/MQdtc/note/589767)|Done|16.12.4|  
+| Exercise 12 | [Electric Potentials and Fields: (Laplace's Equation)](https://www.zybuluo.com/MQdtc/note/597879)| Done| 16.12.11|
