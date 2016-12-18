@@ -35,3 +35,4 @@ This is the repository for Computational Physics course by Prof. Cai from Wuhan 
 | Exercise 10 | [Precession of the Perihelion of Mercury](https://www.zybuluo.com/MQdtc/note/581578)|Done|16.11.27|
 | Exercise 11 | [Chaotic tumbling of Hyperion](https://www.zybuluo.com/MQdtc/note/589767)|Done|16.12.4|  
 | Exercise 12 | [Electric Potentials and Fields: (Laplace's Equation)](https://www.zybuluo.com/MQdtc/note/597879)| Done | 16.12.11|
+| Exercise 13 | [Waves on a string](https://www.zybuluo.com/MQdtc/note/605050)| Done | 16.12.18 |
